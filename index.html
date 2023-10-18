@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabiilah Belajar JS</title>
+
+    <!-- <form onsubmit="return false">
+        <input type="text" id="input_form" value="">
+        <button id="tombol_form">Tekan</button>
+    </form>
+    <p>Hasil Teks <span id="hasil"></span></p> -->
+
+    <!-- <input type="checkbox" id="keren" value="Saya Keren" /> Keren
+    <button id="tombol">x</button> 
+    <br />
+    <input type="checkbox" id="ganteng" value="Saya Ganteng" /> Ganteng 
+    <button id="tombol">x</button>
+    <br />
+    <input type="checkbox" id="cool" value="Saya Cool" /> Cool 
+    <button id="tombol">x</button>
+    <br /> -->
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      h1 {
+        text-align: left;
+        padding: 5px;
+      }
+
+      #input-list {
+        margin-left: 5px;
+      }
+
+      .daftar-list {
+        margin: 5px;
+      }
+
+      .tombol-hapus {
+        margin-top: 5px;
+        float: right;
+        width: 20px;
+      }
+
+      li {
+        margin-top: 10px;
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>To-do list</h1>
+    <div class="container">
+      <input type="text" id="input-list" />
+      <button id="button" type="submit" onclick="add()"> Submit </button>
+      <ul id="list"></ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
